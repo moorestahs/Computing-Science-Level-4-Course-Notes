@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.78.2" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Input Devices :: Level 4 Computing Science</title>
+
+    
+    <link href="/css/nucleus.css?1605619640" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1605619640" rel="stylesheet">
+    <link href="/css/hybrid.css?1605619640" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1605619640" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1605619640" rel="stylesheet">
+    <link href="/css/auto-complete.css?1605619640" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1605619640" rel="stylesheet">
+    <link href="/css/theme.css?1605619640" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1605619640" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1605619640"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/computer-systems/03-input-devices/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://cs4.staugustinesrchs.uk/">
+ <img src="/logo.png" style="width:100%; height: auto;">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1605619640"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1605619640"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/cs4.staugustinesrchs.uk\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1605619640"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/computer-systems/" title="Computer Systems" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/computer-systems/">
+          Computer Systems
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/00-cs-knowledge-checklist/" title="Knowledge Checklist" class="dd-item ">
+        <a href="/computer-systems/00-cs-knowledge-checklist/">
+        Knowledge Checklist
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/01-computer-systems-overview/" title="Computer Systems Overview" class="dd-item ">
+        <a href="/computer-systems/01-computer-systems-overview/">
+        Computer Systems Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/02-binary/" title="Binary" class="dd-item ">
+        <a href="/computer-systems/02-binary/">
+        Binary
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/03-input-devices/" title="Input Devices" class="dd-item active">
+        <a href="/computer-systems/03-input-devices/">
+        Input Devices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/04-output-devices/" title="Output Devices" class="dd-item ">
+        <a href="/computer-systems/04-output-devices/">
+        Output Devices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/05-backing-storage/" title="Backing Storage" class="dd-item ">
+        <a href="/computer-systems/05-backing-storage/">
+        Backing Storage
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/06-processor-and-memory/" title="The Processor and Memory" class="dd-item ">
+        <a href="/computer-systems/06-processor-and-memory/">
+        The Processor and Memory
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/07-types-of-system/" title="Types of Computer System" class="dd-item ">
+        <a href="/computer-systems/07-types-of-system/">
+        Types of Computer System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/08-graphics/" title="Graphics" class="dd-item ">
+        <a href="/computer-systems/08-graphics/">
+        Graphics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/web-design-and-development/" title="Web Design and Development" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/web-design-and-development/">
+          Web Design and Development
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/00-wdd-knowledge-checklist/" title="Knowledge Checklist" class="dd-item ">
+        <a href="/web-design-and-development/00-wdd-knowledge-checklist/">
+        Knowledge Checklist
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/01-wdd-overview/" title="Overview" class="dd-item ">
+        <a href="/web-design-and-development/01-wdd-overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/02-html-tags/" title="HTML - Tags" class="dd-item ">
+        <a href="/web-design-and-development/02-html-tags/">
+        HTML - Tags
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/03-web-page-structure/" title="Web Page Structure" class="dd-item ">
+        <a href="/web-design-and-development/03-web-page-structure/">
+        Web Page Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/04-css/" title="CSS" class="dd-item ">
+        <a href="/web-design-and-development/04-css/">
+        CSS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Level 4 Computing Science</a> > <a href='/computer-systems/'>Computer Systems</a> > Input Devices
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#keyboard">Keyboard</a></li>
+    <li><a href="#mouse">Mouse</a></li>
+    <li><a href="#trackpad">Trackpad</a></li>
+    <li><a href="#scanner">Scanner</a></li>
+    <li><a href="#digital-camera">Digital Camera</a></li>
+    <li><a href="#webcam">Webcam</a></li>
+    <li><a href="#graphics-tablet">Graphics Tablet</a></li>
+    <li><a href="#touch-sensitive-screen">Touch Sensitive Screen</a></li>
+    <li><a href="#microphone">Microphone</a></li>
+    <li><a href="#joystickgame-controller">Joystick/Game Controller</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Input Devices
+            </h1>
+          
+
+        
+
+
+<p>The purpose of input devices is to allow for the input of <strong>instructions</strong> or <strong>data</strong> into the computer. Here are some common input devices.</p>
+<h2 id="keyboard">Keyboard</h2>
+<p>A keyboard is used to enter text or commands into the computer.  The keyboard has the usual QWERTY keys plus special command function keys.</p>
+<p><img src="/input-devices-keyboard.jpg" alt="Keyboard"></p>
+<h2 id="mouse">Mouse</h2>
+<p>You move the mouse and click the mouse buttons to control the cursor on the screen and to select icons and menus.</p>
+<p><img src="/input-devices-mouse.jpg" alt="Mouse"></p>
+<h2 id="trackpad">Trackpad</h2>
+<p>A trackpad, used on laptops, has sensors which detect the movements and taps of your fingers.  It is also used to control the cursor on the screen and to select icons and menus.</p>
+<p><img src="/input-devices-trackpad.jpg" alt="Trackpad"></p>
+<h2 id="scanner">Scanner</h2>
+<p>A scanner is used to capture an image (for example, a photo) and store it in a computer.</p>
+<p><img src="/input-devices-scanner.jpg" alt="Scanner"></p>
+<h2 id="digital-camera">Digital Camera</h2>
+<p>These are used to take digital still images.  You measure how good they are by looking at the number of megapixels they have, how big the screen is and how much memory they have.</p>
+<p><img src="/input-devices-digital-camera.jpg" alt="Digital Camera"></p>
+<h2 id="webcam">Webcam</h2>
+<p>Webcams capture and transmit images across the internet.</p>
+<p><img src="/input-devices-webcam.jpg" alt="Web Cam"></p>
+<h2 id="graphics-tablet">Graphics Tablet</h2>
+<p>Used by artists and designers, they let you draw freehand on a computer system.</p>
+<p><img src="/input-devices-graphics-tablet.jpg" alt="Graphics Tablet"></p>
+<h2 id="touch-sensitive-screen">Touch Sensitive Screen</h2>
+<p>You control the computer by touching the screen to open files, get a printout or run programs.</p>
+<p><img src="/input-devices-touch-screen.jpg" alt="Touch Screen"></p>
+<h2 id="microphone">Microphone</h2>
+<p>Used for recording sounds to use in a presentation, website or podcast, for example.</p>
+<p><img src="/input-devices-microphone.jpg" alt="Microphone"></p>
+<h2 id="joystickgame-controller">Joystick/Game Controller</h2>
+<p>These are used to control games. Gaming using a joystick is much easier than using the keyboard and mouse.</p>
+<p><img src="/input-devices-game-controller.jpg" alt="Game Controller"></p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/computer-systems/02-binary/" title="Binary"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/computer-systems/04-output-devices/" title="Output Devices" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1605619640"></script>
+    <script src="/js/perfect-scrollbar.min.js?1605619640"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1605619640"></script>
+    <script src="/js/jquery.sticky.js?1605619640"></script>
+    <script src="/js/featherlight.min.js?1605619640"></script>
+    <script src="/js/highlight.pack.js?1605619640"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1605619640"></script>
+    <script src="/js/learn.js?1605619640"></script>
+    <script src="/js/hugo-learn.js?1605619640"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1605619640"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

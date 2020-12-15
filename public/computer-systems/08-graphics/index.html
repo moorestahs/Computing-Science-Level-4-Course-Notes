@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.78.2" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Graphics :: Level 4 Computing Science</title>
+
+    
+    <link href="/css/nucleus.css?1605619640" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1605619640" rel="stylesheet">
+    <link href="/css/hybrid.css?1605619640" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1605619640" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1605619640" rel="stylesheet">
+    <link href="/css/auto-complete.css?1605619640" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1605619640" rel="stylesheet">
+    <link href="/css/theme.css?1605619640" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1605619640" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1605619640"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/computer-systems/08-graphics/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://cs4.staugustinesrchs.uk/">
+ <img src="/logo.png" style="width:100%; height: auto;">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1605619640"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1605619640"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/cs4.staugustinesrchs.uk\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1605619640"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/computer-systems/" title="Computer Systems" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/computer-systems/">
+          Computer Systems
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/00-cs-knowledge-checklist/" title="Knowledge Checklist" class="dd-item ">
+        <a href="/computer-systems/00-cs-knowledge-checklist/">
+        Knowledge Checklist
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/01-computer-systems-overview/" title="Computer Systems Overview" class="dd-item ">
+        <a href="/computer-systems/01-computer-systems-overview/">
+        Computer Systems Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/02-binary/" title="Binary" class="dd-item ">
+        <a href="/computer-systems/02-binary/">
+        Binary
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/03-input-devices/" title="Input Devices" class="dd-item ">
+        <a href="/computer-systems/03-input-devices/">
+        Input Devices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/04-output-devices/" title="Output Devices" class="dd-item ">
+        <a href="/computer-systems/04-output-devices/">
+        Output Devices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/05-backing-storage/" title="Backing Storage" class="dd-item ">
+        <a href="/computer-systems/05-backing-storage/">
+        Backing Storage
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/06-processor-and-memory/" title="The Processor and Memory" class="dd-item ">
+        <a href="/computer-systems/06-processor-and-memory/">
+        The Processor and Memory
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/07-types-of-system/" title="Types of Computer System" class="dd-item ">
+        <a href="/computer-systems/07-types-of-system/">
+        Types of Computer System
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/computer-systems/08-graphics/" title="Graphics" class="dd-item active">
+        <a href="/computer-systems/08-graphics/">
+        Graphics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/web-design-and-development/" title="Web Design and Development" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/web-design-and-development/">
+          Web Design and Development
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/00-wdd-knowledge-checklist/" title="Knowledge Checklist" class="dd-item ">
+        <a href="/web-design-and-development/00-wdd-knowledge-checklist/">
+        Knowledge Checklist
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/01-wdd-overview/" title="Overview" class="dd-item ">
+        <a href="/web-design-and-development/01-wdd-overview/">
+        Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/02-html-tags/" title="HTML - Tags" class="dd-item ">
+        <a href="/web-design-and-development/02-html-tags/">
+        HTML - Tags
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/03-web-page-structure/" title="Web Page Structure" class="dd-item ">
+        <a href="/web-design-and-development/03-web-page-structure/">
+        Web Page Structure
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design-and-development/04-css/" title="CSS" class="dd-item ">
+        <a href="/web-design-and-development/04-css/">
+        CSS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Level 4 Computing Science</a> > <a href='/computer-systems/'>Computer Systems</a> > Graphics
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#bit-mapped-graphics">Bit-mapped Graphics</a></li>
+    <li><a href="#size-of-a-black-and-white-bitmapped-graphic">Size of a black and white bitmapped graphic</a></li>
+    <li><a href="#bit-depth">Bit-Depth</a></li>
+    <li><a href="#vector-graphics">Vector Graphics</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Graphics
+            </h1>
+          
+
+        
+
+
+<h2 id="bit-mapped-graphics">Bit-mapped Graphics</h2>
+<p>This is the type of graphic that can be created using a <strong>paint</strong> application.</p>
+<p>A <strong>bit-mapped</strong> graphic is stored as a 2-dimensional array of pixels where each pixel stores the colour of that pixel. Normally you don&rsquo;t see the pixels as you only look at the overall picture.</p>
+<p>Look at the illustration below. In the normal view of the dog (left) it is hard to see the individual pixels, but if the image is zoomed in (right) the pixels become more obvious.</p>
+<p><img src="/bitmapped-graphic-dog.jpg" alt="Bitmapped Dog"></p>
+<p>Black and white computer graphics are represented in binary by: if the pixel is black then a 1 is stored in a bit, if it is white then a 0 is stored.</p>
+<p><img src="/bitmapped-graphic.png" alt="Bitmapped Graphic"></p>
+<h2 id="size-of-a-black-and-white-bitmapped-graphic">Size of a black and white bitmapped graphic</h2>
+<p>Each pixel in a black and white bit-mapped graphic is stored in 1-bit of memory. By counting the pixels, you can work out how much memory it takes to store the picture.</p>
+<p>A graphic that is 100 pixels by 50 pixels would require:</p>
+<p><strong>100 x 50 x 1 bits = 5000 bits</strong></p>
+<p>(The 1 is there because each pixel is stored as 1 bit in either black or white.)</p>
+<h2 id="bit-depth">Bit-Depth</h2>
+<p>Bitmapped colour graphics require more than 1-bit of memory to store a pixel. The number of bits used to store the colour of each pixel is called the bit depth.</p>
+<ul>
+<li>8-bit graphics require 8 bits of memory to store the colour of each pixel.</li>
+<li>24-bit graphics require 24 bits of memory to store the colour of each pixel.</li>
+</ul>
+<p>This would significantly increase the amount of memory required to store a graphic.</p>
+<p>The <strong>number of bits used to represent the colour of each pixel</strong> is called the <strong>bit-depth</strong>.</p>
+<h2 id="vector-graphics">Vector Graphics</h2>
+<p>Vector graphics store a picture by storing each object’s <strong>attributes</strong>.</p>
+<p><img src="/vector-graphics.png" alt="Vector graphics"></p>
+<p>Obviously, when stored in the computer each attribute would be stored as a binary number.</p>
+<p>There are several common objects that you need to know how they are represented.  These are:</p>
+<ul>
+<li>Rectangle</li>
+<li>Ellipse</li>
+<li>Line</li>
+<li>Polygon</li>
+</ul>
+<p>For each of these you need to know how the attributes of:</p>
+<ul>
+<li>coordinates (the x,y of different points in the shape)</li>
+<li>line colour</li>
+<li>line width</li>
+<li>fill colour</li>
+</ul>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/computer-systems/07-types-of-system/" title="Types of Computer System"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/web-design-and-development/" title="Web Design and Development" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1605619640"></script>
+    <script src="/js/perfect-scrollbar.min.js?1605619640"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1605619640"></script>
+    <script src="/js/jquery.sticky.js?1605619640"></script>
+    <script src="/js/featherlight.min.js?1605619640"></script>
+    <script src="/js/highlight.pack.js?1605619640"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1605619640"></script>
+    <script src="/js/learn.js?1605619640"></script>
+    <script src="/js/hugo-learn.js?1605619640"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1605619640"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

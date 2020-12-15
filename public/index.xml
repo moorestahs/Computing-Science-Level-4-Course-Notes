@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Level 4 Computing Science</title>
+    <link>https://cs4.staugustinesrchs.uk/</link>
+    <description>Recent content on Level 4 Computing Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cs4.staugustinesrchs.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knowledge Checklist</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/00-cs-knowledge-checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/00-cs-knowledge-checklist/</guid>
+      <description>What you should know After completing this unit you should:
+ Know the different components of a computer systems has shown in the computer systems diagram Know that computers store all data as binary Be able to convert a 8-bit binary number into denary (decimal) Know examples of input, output and backing storage devices Know units of measurement for backing storage capacity Know the different parts of the processor and be able to describe what they do Know the unit of measurement used to represent the speed of a processor Know the different types of computer system and be able to describe their main characteristics Know that memory is divided into storage locations - each of which has a unique address Know that the processor and memory are connected by the address and data buses Be able to describe the roles of the address and data buses Be able to describe how the processor can locate data in memory  </description>
+    </item>
+    
+    <item>
+      <title>Knowledge Checklist</title>
+      <link>https://cs4.staugustinesrchs.uk/web-design-and-development/00-wdd-knowledge-checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/web-design-and-development/00-wdd-knowledge-checklist/</guid>
+      <description>What you should know After completing this unit you should:
+ Know that websites are built using HTML, CSS and JavaScript Know that HTML is a markup language that uses tags Understand who the client and developer are Know the structure of a web page Know how most tags have an opening and closing Know how CSS can be used to style the web page  </description>
+    </item>
+    
+    <item>
+      <title>Computer Systems Overview</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/01-computer-systems-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/01-computer-systems-overview/</guid>
+      <description>A computer system can be represented using the diagram below.
+The components of the computer system are:
+Input Devices The purpose of input devices is to put data into the computer. This data could be instructions via the keyboard, cursor movements via the mouse or sound data from a microphone.
+Output Devices The purpose of output devices is to see or hear the results of the processing the computer has done.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://cs4.staugustinesrchs.uk/web-design-and-development/01-wdd-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/web-design-and-development/01-wdd-overview/</guid>
+      <description>The web is everywhere. We&amp;rsquo;re used to browsing the web using a web browser to view web sites but the technologies that are used to create web pages can be found in other places such as the apps on our phones and tablets.
+HTML, CSS and JavaScript The main language that is used to create web pages is HTML (HyperText Markup Language). It is joined by CSS (Cascading Style Sheets), which is used for appearance and layout, and JavaScript which is used to add more interactive elements.</description>
+    </item>
+    
+    <item>
+      <title>Binary</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/02-binary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/02-binary/</guid>
+      <description>The language of computers is binary. Computers only understand binary because at the smallest level they are made of on/off switches called transistors.
+If the transistor is off (no electrical current) then this represents the number 0 and if it is on then this represents 1.
+Converting to Binary Converting a number from binary to decimal is easy. At Primary school you learned that the position of a digit in a number affects its value.</description>
+    </item>
+    
+    <item>
+      <title>HTML - Tags</title>
+      <link>https://cs4.staugustinesrchs.uk/web-design-and-development/02-html-tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/web-design-and-development/02-html-tags/</guid>
+      <description>HTML consists of tags. There are about 100 tags that make up HTML but you don&amp;rsquo;t need to remember all of them to create websites - most websites are created with a much smaller number of tags.
+Tags The majority of tags have an opening part and a closing part. The tags themselves are written inside angled brackets &amp;lt; &amp;gt;. For example the heading 1 tag which produces the largest text is called h1 and it&amp;rsquo;s opening tag is &amp;lt;h1&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Input Devices</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/03-input-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/03-input-devices/</guid>
+      <description>The purpose of input devices is to allow for the input of instructions or data into the computer. Here are some common input devices.
+Keyboard A keyboard is used to enter text or commands into the computer. The keyboard has the usual QWERTY keys plus special command function keys.
+Mouse You move the mouse and click the mouse buttons to control the cursor on the screen and to select icons and menus.</description>
+    </item>
+    
+    <item>
+      <title>Web Page Structure</title>
+      <link>https://cs4.staugustinesrchs.uk/web-design-and-development/03-web-page-structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/web-design-and-development/03-web-page-structure/</guid>
+      <description>The HTML in a web page follows a basic structure.
+The &amp;lt;html&amp;gt; tag is the first tag in the page and the closing tag is the last tag.
+The &amp;lt;head&amp;gt; tag generally appears next and contains information about our page. In our practical tasks we place the &amp;lt;title&amp;gt; and &amp;lt;link&amp;gt; tags here to set the page title and link to the external stylesheet respectively.
+The &amp;lt;body&amp;gt; tag is where the main page content goes.</description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://cs4.staugustinesrchs.uk/web-design-and-development/04-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/web-design-and-development/04-css/</guid>
+      <description>CSS allows us to style our web page. There are three places where we can write CSS:
+ In an external CSS file In an internal style block within the &amp;lt;head&amp;gt; Inline, as an attribute of a tag  CSS Syntax CSS uses a different syntax to HTML. Syntax means the &amp;lsquo;rules of the language&amp;rsquo;.
+CSS is really just a list of rules that will apply to our HTML. The rules will can do things such as:</description>
+    </item>
+    
+    <item>
+      <title>Output Devices</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/04-output-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/04-output-devices/</guid>
+      <description>The purpose of output devices is to allow for the results of the processing done by the computer to be seen or heard. Here are some common output devices.
+Laser Printer This works by using a laser beam and toner to put the image of a page onto the paper. They are very fast and produce very high-quality output. However, they can be more expensive to buy than an inkjet.</description>
+    </item>
+    
+    <item>
+      <title>Backing Storage</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/05-backing-storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/05-backing-storage/</guid>
+      <description>Units of Storage When we store digital data, it is all stored as binary. The amount of data can be represented using different units. The smallest unit is a bit (0 or 1) and one of the largest units is a petabyte (there are actually bigger units - try researching what they are).
+Backing Storage Devices The purpose of backing storage devices is to save data when it isn&amp;rsquo;t required by the processor - this includes when the computer is switched off.</description>
+    </item>
+    
+    <item>
+      <title>The Processor and Memory</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/06-processor-and-memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/06-processor-and-memory/</guid>
+      <description>The Processor The processor, sometimes known as the central processing unit (CPU), is the part of a computer system that carries out the instructions of a computer program, to perform the basic arithmetical, logical, and input/output operations of the system. It is sometimes known as the brains of the computer.
+The processor is divided into three parts :
+  The Arithmetic and Logic Unit(ALU) performs all the calculations (e.g. + - / *) and Logical operations (e.</description>
+    </item>
+    
+    <item>
+      <title>Types of Computer System</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/07-types-of-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/07-types-of-system/</guid>
+      <description>There are many types of computer system. Here are the most common:
+Wearable Usually a watch or fitness band. The watch will often have a touch screen and several sensors to detect motion and other health related aspects such as heart rate. The output is a small screen, perhaps with a small speaker too. Backing storage will consist of a 1 Gb (approx.) solid state drive.
+Phone Phones or smartphones can be very powerful pocket sized computers.</description>
+    </item>
+    
+    <item>
+      <title>Graphics</title>
+      <link>https://cs4.staugustinesrchs.uk/computer-systems/08-graphics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cs4.staugustinesrchs.uk/computer-systems/08-graphics/</guid>
+      <description>Bit-mapped Graphics This is the type of graphic that can be created using a paint application.
+A bit-mapped graphic is stored as a 2-dimensional array of pixels where each pixel stores the colour of that pixel. Normally you don&amp;rsquo;t see the pixels as you only look at the overall picture.
+Look at the illustration below. In the normal view of the dog (left) it is hard to see the individual pixels, but if the image is zoomed in (right) the pixels become more obvious.</description>
+    </item>
+    
+  </channel>
+</rss>

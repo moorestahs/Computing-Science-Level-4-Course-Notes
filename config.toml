@@ -1,0 +1,5 @@
+baseURL = "https://cs4.staugustinesrchs.uk/"
+languageCode = "en-us"
+title = "Level 4 Computing Science"
+theme = "hugo-theme-learn"
+disableInlineCopyToClipBoard = true
